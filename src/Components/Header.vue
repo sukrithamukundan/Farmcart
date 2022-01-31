@@ -15,6 +15,9 @@
       <span class="navbar-item bc d-none d-xl-block d-lg-block py-0">
         <router-link class="px-5" to="/blogs">Blogs</router-link>
       </span>
+      <span class="navbar-item bc d-none d-xl-block d-lg-block py-0">
+        <router-link class="px-5" to="/table">Price Table</router-link>
+      </span>
 
       <p class="navbar-item ml-auto"></p>
       <div class="searc d-none d-xl-block d-lg-block pr-3">
