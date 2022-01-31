@@ -18,10 +18,10 @@
           <div class="footer-widget">
             <div class="footer-title">Collection</div>
             <ul class="list-unstyled">
-              <router-link to="/products"><li>New arrivals</li></router-link>
-              <router-link to="/products"><li>Featured</li></router-link>
-              <router-link to="/products"><li>Catalog</li></router-link>
-              <router-link to="/products"><li>Brands</li></router-link>
+              <router-link to="/"><li>New arrivals</li></router-link>
+              <router-link to="/"><li>Featured</li></router-link>
+              <router-link to="/"><li>Catalog</li></router-link>
+              <router-link to="/"><li>Brands</li></router-link>
             </ul>
           </div>
         </div>
@@ -30,11 +30,11 @@
           <div class="footer-widget">
             <div class="footer-title">Catagories</div>
             <ul class="list-unstyled">
-              <router-link to="/products"><li>Vegies</li></router-link>
-              <router-link to="/products"><li>Fruits</li></router-link>
-              <router-link to="/products"><li>Tools</li></router-link>
-              <router-link to="/products"><li>Animals</li></router-link>
-              <router-link to="/products"><li>Others</li></router-link>
+              <router-link to="/"><li>Vegies</li></router-link>
+              <router-link to="/"><li>Fruits</li></router-link>
+              <router-link to="/"><li>Tools</li></router-link>
+              <router-link to="/"><li>Animals</li></router-link>
+              <router-link to="/"><li>Others</li></router-link>
             </ul>
           </div>
         </div>
