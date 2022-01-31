@@ -10,7 +10,7 @@
             </div>
             <div class="card-body">
               <h5 class="card-title">{{ item.title }}</h5>
-              <p class="card-text">${{ item.price }}</p>
+              <p class="card-text">RS - {{ item.price }}</p>
             </div>
           </div>
       </div>

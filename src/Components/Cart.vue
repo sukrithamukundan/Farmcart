@@ -32,8 +32,11 @@
             <h4>Total</h4>
           </div>
           <div class="flex-column pr-3">
-            <h4>${{ cartPrice }}</h4>
+            <h4>Rs - {{ cartPrice }}</h4>
           </div>
+        </div>
+        <div class="row pt-5 container justify-content-center">
+          <button type="button" class="btn btn-primary btn-lg">Proceed to pay</button>
         </div>
       </div>
     </div>

@@ -1,12 +1,12 @@
 <template>
   <section class="about-us">
-    <div class="row p-4">
+    <div class="row p-5 pt-7">
       <div class="col-6">
         <img class="float-lg-right" src="@/assets/anew.jpg" />
       </div>
       <div class="col-12 col-sm-6 container">
         <h1>Why buy organic spices?</h1>
-        <h6><b>Author: Ssancheti</b></h6>
+        <h6><b>Author:Dr. Ssancheti</b></h6>
         <h6>Date: August 14, 2020</h6>
         <h6>
           What is organic food and why is it beneficial? Organic foods are grown
@@ -21,18 +21,25 @@
           so now more and more customers are expecting organic spices. So here
           are few reasons of why should we buy organic spices
         </h6>
-        <a
-          href="#"
-          class="btn btn-outline-dark"
-          role="button"
-          aria-disabled="true"
-          >Read more</a
-        >
+        <div class="row pt-2">
+          <div class="col-3">
+            <button type="button" class="btn btn-outline-dark">
+              Read more
+            </button>
+          </div>
+          <div class="col-2">
+            <router-link class="dropdown-item" to="/contact"
+              ><button type="button" class="btn btn-outline-dark">
+                Contact Author
+              </button></router-link
+            >
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row p-4">
+    <div class="row p-5 ">
       <div
-        class=" container col-12 col-sm-6 text-sm-right text-md-right text-lg-right order-sm-first order-12"
+        class="container col-12 col-sm-6 text-sm-right text-md-right text-lg-right order-sm-first order-12"
       >
         <h1>Keep Your Tractor Battery Healthy: Best Tips by KhetiGaadi</h1>
         <h6><b>Author: KhetiGaadi</b></h6>
@@ -51,19 +58,27 @@
           for intermittent occasions, the life expectancy of the battery decays
           leaving your tractor weak against unexpected breakdown.
         </h6>
-        <a
-          href="#"
-          class="btn btn-outline-dark"
-          role="button"
-          aria-disabled="true"
-          >Read more</a
-        >
+        <div class="row text-right">
+          <div class="col-6"></div>
+          <div class="col-3">
+            <button type="button" class="btn btn-outline-dark">
+              Read more
+            </button>
+          </div>
+          <div class="col-3">
+            <router-link class="dropdown-item" to="/contact"
+              ><button type="button" class="btn btn-outline-dark">
+                Contact Author
+              </button></router-link
+            >
+          </div>
+        </div>
       </div>
       <div class="col-6">
         <img src="@/assets/a33.jpg" />
       </div>
     </div>
-    <div class="row p-4">
+    <div class="row p-5">
       <div class="col-6">
         <img class="float-lg-right" src="@/assets/a34.jpg" />
       </div>
@@ -84,13 +99,20 @@
           your business into a thriving livestock farm. Let us look at some
           steps to start a livestock farming business.
         </h6>
-        <a
-          href="#"
-          class="btn btn-outline-dark"
-          role="button"
-          aria-disabled="true"
-          >Read more</a
-        >
+        <div class="row pt-2 ">
+          <div class="col-3">
+            <button type="button" class="btn btn-outline-dark">
+              Read more
+            </button>
+          </div>
+          <div class="col-3">
+            <router-link class="dropdown-item" to="/contact"
+              ><button type="button" class="btn btn-outline-dark">
+                Contact Author
+              </button></router-link
+            >
+          </div>
+        </div>
       </div>
     </div>
   </section>

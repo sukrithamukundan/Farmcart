@@ -13,14 +13,14 @@ export default new Vuex.Store({
         id:0,
         img: require('@/assets/a1.jpeg'),
         title: 'Ripe-Red-Tomatoes',
-        price: 156,
+        price: 56,
         color: 'Red',
         type: 'vegies'
       }, {
         id:1,
         img: require('@/assets/a11.jpg'),
         title: 'Orange',
-        price: 756,
+        price: 100,
         color: 'green',
         type: 'fruits'
       }, {
@@ -56,7 +56,7 @@ export default new Vuex.Store({
         id:6,
         img: require('@/assets/a3.jpg'),
         title: 'Corn',
-        price: 505,
+        price: 50,
         color: 'yellow',
         type: 'vegies'
       }, {
@@ -71,7 +71,7 @@ export default new Vuex.Store({
         id:8,
         img: require('@/assets/a8.jpg'),
         title: 'Calf',
-        price: 390,
+        price: 3900,
         color: 'white',
         type: 'animals'
       },
@@ -79,7 +79,7 @@ export default new Vuex.Store({
         id:9,
         img: require('@/assets/a7.jpg'),
         title: 'Egg',
-        price: 756,
+        price: 56,
         color: 'white',
         type: 'others'
       },
@@ -103,7 +103,7 @@ export default new Vuex.Store({
         id:12,
         img: require('@/assets/a6.jpg'),
         title: 'Rooster',
-        price: 505,
+        price: 500,
         color: 'red',
         type: 'animals'
         
@@ -120,7 +120,7 @@ export default new Vuex.Store({
         id:14,
         img: require('@/assets/a2.jpg'),
         title: 'Strawberry',
-        price: 756,
+        price: 75,
         color: 'red',
         type: 'fruits'
       }

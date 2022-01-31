@@ -18,7 +18,7 @@ export default {
   name: 'InfoText',
   data() {
     return {
-      moreInfo: ['DESCRIPTION', 'WARRANTY', 'REVIEWS'],
+      moreInfo: ['DESCRIPTION', 'FAQ', 'REVIEWS'],
       active: 0,
     }
   },
