@@ -1,25 +1,16 @@
 <template>
-  <b-card no-body class="card-profile" alt="Image placeholder" img-top>
-    <b-row class="justify-content-center">
-      <b-col lg="3" class="order-lg-2">
-        <div class="card-profile-image">
+  <div  class="card ">
+    <div class="row justify-content-center ">
           <a href="#">
-            <b-img src="@/assets/noc.jpg" rounded="circle" />
+            <img src="@/assets/team-4.jpg" class=" card-img-top rounded-circle " width="304" height="236" >
           </a>
-        </div>
-      </b-col>
-    </b-row>
+          </div>
 
-    <b-card-header class="text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
-      <div class="d-flex justify-content-between">
+    <div class="card-body">
         <a href="#" class="btn btn-sm btn-info mr-4">Connect</a>
         <a href="#" class="btn btn-sm btn-default float-right">Message</a>
-      </div>
-    </b-card-header>
-
-    <b-card-body class="pt-0">
-      <b-row>
-        <b-col >
+      <div class="row">
+        <div class="col" >
           <div class="card-profile-stats d-flex justify-content-center mt-md-5">
             <div>
               <span class="heading">22</span>
@@ -34,8 +25,8 @@
               <span class="description">Comments</span>
             </div>
           </div>
-        </b-col>
-      </b-row>
+        </div>
+      </div>
       <div class="text-center">
         <h5 class="h3">
           Jessica Jones<span class="font-weight-light">, 27</span>
@@ -54,8 +45,8 @@
         <a href="#">Show more</a>
 
       </div>
-    </b-card-body>
-  </b-card>
+    </div>
+  </div>
 </template>
 <script>
 export default {};
